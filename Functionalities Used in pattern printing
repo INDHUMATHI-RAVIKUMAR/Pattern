@@ -1,1 +1,4 @@
-
+Pattern Dictionary: The patterns dictionary stores the patterns for each letter. Extend this dictionary to include more letters as needed.
+Input Handling: The program prompts the user for input and checks if it's a valid single letter from 'A' to 'Z' (case insensitive).
+Error Handling: Using a try-except block, the program catches invalid inputs and prompts the user again until a valid input is provided.
+Pattern Printing: The print_pattern function prints the corresponding pattern for the given letter. If the pattern is not found, it notifies the user
